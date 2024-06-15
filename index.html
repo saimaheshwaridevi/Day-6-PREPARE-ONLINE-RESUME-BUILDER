@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume Builder</title>
+    <link rel="stylesheet" href="Day6.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Builder</h1>
+        <form id="resumeForm">
+            <section>
+                <h2>Personal Information</h2>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </section>
+            <section>
+                <h2>Work Experience</h2>
+                <label for="Experience">Experience:</label>
+                <textarea id ="Experience" name="Experience" rows="4" required></textarea>
+
+                <label for="job-title">job-title:</label>
+                <input type="job-title" id="job-title" name="job-title" required>
+
+                <label for="company">company:</label>
+                <input type="company" id="company" name="company" required>
+
+                <label for="date range">date range:</label>
+                <input type="date" id="range" name="range" required>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <label for="education">Education:</label>
+                <textarea id="education" name="education" rows="4" required></textarea>
+
+                <label for="Degree">Degree:</label>
+                <input type="Degree" id="Degree" name="Degree" required>
+
+                <label for="Degree(%)">Degree(%):</label>
+                <input type="Degree(%)" id="Degree(%)" name="Degree(%)" required>
+
+                <label for="Institution">Institution:</label>
+                <input type="Institution" id="Institution" name="Institution" required>
+
+                <label for="Date range">Date range:</label>
+                <input type="date" id="range" name="range" required>
+
+                <label for="12th/Diploma(%)">12th/Diploma(%):</label>
+                <input type="12th/Diploma(%)" id="12th/Diploma(%)" name="12th/Diploma(%)" required>
+
+                <label for="Collage name">Collage name:</label>
+                <input type="Collage name" id="Collage name" name="Collage name" required>
+
+                <label for="Date range">Date range:</label>
+                <input type="date" id="range" name="range" required>
+
+                <label for="10th(%)">10th(%):</label>
+                <input type="10th(%)" id="10th(%)" name="10th(%)" required>
+
+                <label for="School name">School name:</label>
+                <input type="School name" id="School name" name="School name" required>
+
+                <label for="Date range">Date range:</label>
+                <input type="date" id="range" name="range" required>
+
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <label for="skills">Skills:</label>
+                <textarea id="skills" name="skills" rows="4" required></textarea>
+            </section>
+            <div class="buttons">
+                <button type="submit">Save</button>
+                <button type="button" id="downloadBtn">Download</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
